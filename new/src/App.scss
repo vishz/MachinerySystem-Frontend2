@@ -1,0 +1,270 @@
+// Styles
+// CoreUI Icons Set
+@import '~@coreui/icons/css/coreui-icons.css';
+// Import Flag Icons Set
+@import '~flag-icon-css/css/flag-icon.min.css';
+// Import Font Awesome Icons Set
+@import '~font-awesome/css/font-awesome.min.css';
+// Import Simple Line Icons Set
+@import '~simple-line-icons/css/simple-line-icons.css';
+// Import Main styles for this application
+@import './scss/style.scss';
+
+.action-section {
+    display: flex;
+  }
+
+  .btn-icon {
+    padding: 0.5rem;
+    line-height: 0.5;
+  }
+
+  
+.date-picker {
+  padding: 7px;
+  border: 1px solid #B5B3BB;
+  border-radius: 4px;
+  width: 100%
+}
+
+.file-browser {
+  border: 1px solid #B5B3BB;
+  //padding: 7px 5px;
+  border-radius: 6px;
+  width: 100%;
+  height: 38px;
+  padding: 4px;
+}
+
+.selected-file-preview {
+  color: grey;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.requiredStar {
+  color: #ff6d66;
+  font-weight: bold;
+}
+
+.card-footer { 
+  background-color: #fff;
+  border-top: 1px solid #fff;
+}
+
+.range-picker-style {
+  padding: 7px;
+  border: 1px solid #B5B3BB;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.headline {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.subHeadline {
+  font-weight: 500;
+}
+
+.ReactFlagsSelect-module_flagsSelectInline__cUnnz {
+  display: flex !important;
+  height: 42px !important;
+}
+
+.css-xb97g8 {
+  display: none !important;
+}
+
+.bar-chart {
+  background-color: #fff !important;
+    border-bottom: 1px solid #fff !important;
+}
+
+.bar-title {
+    font-family: inherit !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    color: #5e5873 !important;
+}
+
+.form-control {
+  border: 1px solid hsl(0, 0%, 80%) !important;
+}
+
+.PhoneInput {
+  border: 1px solid #cccccc !important;
+  padding: 6px 15px !important;
+  border-radius: 4px !important;
+  height: 35px !important;
+  margin-top: -1px !important;
+}
+
+.PhoneInputInput{
+  border: none !important;
+}
+
+input:disabled {
+  cursor: default;
+  background-color: #fff;
+  color: -internal-light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
+  border-color: rgba(118, 118, 118, 0.3);
+}
+
+.file-browser {
+  border: 1px solid rgba(118, 118, 118, 0.3);
+  //padding: 7px 5px;
+  border-radius: 6px;
+  width: 100%;
+  height: 38px;
+  padding: 4px;
+}
+
+.selected-file-preview {
+  color: grey;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.view-selected-file {
+  position: absolute;
+  left: 114px;
+  top: 33px;
+  background-color: white;
+  width: 42%;
+  padding: 0 0 0 10px;
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.remove-selected-file {
+  position: absolute;
+  background-color: white;
+  left: 165px;
+  top: 33px;
+  color: #1890ff;
+  cursor: pointer;
+  width: 32%;
+}
+
+.selected-add-file-preview {
+  position: absolute;
+  top: 38px !important;
+  left: 58px;
+}
+
+.remove-add-file {
+  margin-left: 10px;
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.ant-picker {
+  height: 35px !important;
+  border-radius: 4px !important;
+  border: 1px solid hsl(0, 0%, 80%) !important;
+}
+
+.description-text-limit {
+  position: absolute;
+  right: 15px;
+  color: grey;
+  font-size: 12px;
+}
+
+.description-text-limit-error {
+  color: red !important;
+}
+
+.ant-message {
+  z-index: 9999 !important;
+}
+
+.bg-color {
+  background-color: grey !important;
+}
+
+.flat-custom{
+  border-radius: 6px;
+  text-align: center;
+}
+
+.time-range-picker {
+  border: 1px solid rgba(118, 118, 118, 0.3);
+  border-radius: 6px;
+  height: 40px;
+}
+
+#react-time-range select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 2px !important;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.video-tag {
+  color: #1890ff !important;
+}
+
+.card-header {
+  background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.card-title {
+  color: #5e5873;
+}
+
+.form-control:disabled, .form-control[readonly] { 
+  background-color: #fff;
+  opacity: 1;
+}
+
+.css-1insrsq-control { 
+  background-color: #fff !important;
+  border: thin solid rgba(77, 77, 77, 0.3) !important
+}
+
+.ReactFlagsSelect-module_disabledBtn__3A4GF {
+  background: #fff !important;
+  cursor: default;
+}
+
+.pagination-area {
+  float: right;
+  display: flex;
+}
+
+.amount-title {
+  margin-top: 5px;
+  right: 400px;
+  padding: 0 10px;
+}
+
+.row-amount {
+  right: 350px;
+  margin-top: 7px;
+  padding: 0 5px;
+  height: 20px;
+}
+
+.pages-view {
+  right: 260px;
+  margin-top: 6px;
+  padding: 0 15px;
+}
+
+.w-100 {
+  display: none !important;
+  
+}
+
+.custom-creatable-select {
+  width: 21vw;
+}
+

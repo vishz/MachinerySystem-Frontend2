@@ -1,0 +1,47 @@
+{
+    "login": {
+        "email": "Email",
+        "password": "Password",
+        "Welcome": "Welcome!",
+        "WOOKSTVAdmin": "WOOKSTV Admin",
+        "Login": "Login",
+        "SignIn": "Sign In to your account",
+        "LoginButton": "Login"
+    },
+    "Dashboard": {
+        "users": "PUBLIC USERS",
+        "class": "CLASSES",
+        "month": ""
+    },
+    "Class": {
+        "name": "Class Name",
+        "date": "Date",
+        "status": "Status",
+        "teacher": "Find Teacher",
+        "fee": "Machine Name",
+        "duration": "Duration",
+        "video": "Video",
+        "link": "Zoom Link",
+        "description": "Description",
+        "age": "Age Range",
+        "max": "Machine Code",
+        "image": "Image",
+        "subject": "Language",
+        "educationMeterial": "Rental",
+        "enterClassName": "Enter the class name to search class",
+        "feedBackFormUrl": "Feedback Form Url"
+    },
+    "Student": {
+        "fname": "First Name",
+        "lname": "Last Name",
+        "role": "User Role",
+        "status": "Status",
+        "email": "Email",
+        "number": "Contact Number",
+        "password": "Password",
+        "cpassword": "Confirm Password",
+        "subscription": "Subscription Plan",
+        "classes": "Classes",
+        "enterStudentName": "Enter the student name to search student"
+    }
+}
